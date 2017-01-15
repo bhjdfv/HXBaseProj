@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9290C4F1E2269A000DBA708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C4E1E2269A000DBA708 /* main.m */; };
-		D9290C521E2269A000DBA708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C511E2269A000DBA708 /* AppDelegate.m */; };
-		D9290C551E2269A000DBA708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C541E2269A000DBA708 /* ViewController.m */; };
-		D9290C581E2269A000DBA708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9290C561E2269A000DBA708 /* Main.storyboard */; };
+		C24896C5B1BB6163B5499538 /* libPods-HXBaseProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DC5816BC79C3101D5797EF /* libPods-HXBaseProj.a */; };
 		D9290C5A1E2269A000DBA708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9290C591E2269A000DBA708 /* Assets.xcassets */; };
-		D9290C5D1E2269A000DBA708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9290C5B1E2269A000DBA708 /* LaunchScreen.storyboard */; };
 		D9290C681E2269A000DBA708 /* HXBaseProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C671E2269A000DBA708 /* HXBaseProjTests.m */; };
 		D9290C731E2269A000DBA708 /* HXBaseProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C721E2269A000DBA708 /* HXBaseProjUITests.m */; };
+		D9290C8E1E227AB500DBA708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C8B1E227AB500DBA708 /* AppDelegate.m */; };
+		D9290C901E227AB500DBA708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C8D1E227AB500DBA708 /* main.m */; };
+		D9290C981E227ABD00DBA708 /* HXBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C931E227ABD00DBA708 /* HXBaseController.m */; };
+		D9290C991E227ABD00DBA708 /* HXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C951E227ABD00DBA708 /* HXBaseModel.m */; };
+		D9290C9A1E227ABD00DBA708 /* HXBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C971E227ABD00DBA708 /* HXBaseView.m */; };
+		D9290C9D1E227AE900DBA708 /* HXMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290C9C1E227AE900DBA708 /* HXMainController.m */; };
+		D9290C9F1E227DBC00DBA708 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9290C9E1E227DBC00DBA708 /* Info.plist */; };
+		D9290CA61E22819B00DBA708 /* NSObject+HX.m in Sources */ = {isa = PBXBuildFile; fileRef = D9290CA51E22819B00DBA708 /* NSObject+HX.m */; };
+		D9D88FBB1E2B7A13006873DA /* HXTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FBA1E2B7A13006873DA /* HXTabController.m */; };
+		D9D88FC21E2B7B85006873DA /* HXHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FC11E2B7B85006873DA /* HXHomeController.m */; };
+		D9D88FCB1E2B7BAD006873DA /* HXMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FCA1E2B7BAD006873DA /* HXMeController.m */; };
+		D9D88FCF1E2B7BE5006873DA /* HXLikeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FCE1E2B7BE5006873DA /* HXLikeController.m */; };
+		D9D88FD31E2B7BF2006873DA /* HXFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FD21E2B7BF2006873DA /* HXFindController.m */; };
+		D9D88FD61E2B7C1E006873DA /* HXNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FD51E2B7C1E006873DA /* HXNaviController.m */; };
+		D9D88FE01E2B7D58006873DA /* LCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FD91E2B7D58006873DA /* LCTabBar.m */; };
+		D9D88FE11E2B7D58006873DA /* LCTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FDB1E2B7D58006873DA /* LCTabBarBadge.m */; };
+		D9D88FE21E2B7D58006873DA /* LCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FDD1E2B7D58006873DA /* LCTabBarController.m */; };
+		D9D88FE31E2B7D58006873DA /* LCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D88FDF1E2B7D58006873DA /* LCTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +49,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0B9848027C05B04EF82456 /* Pods-HXBaseProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXBaseProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXBaseProj/Pods-HXBaseProj.debug.xcconfig"; sourceTree = "<group>"; };
+		34DC5816BC79C3101D5797EF /* libPods-HXBaseProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXBaseProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4438024A18425EC09CF7B714 /* Pods-HXBaseProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXBaseProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXBaseProj/Pods-HXBaseProj.release.xcconfig"; sourceTree = "<group>"; };
 		D9290C4A1E2269A000DBA708 /* HXBaseProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXBaseProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9290C4E1E2269A000DBA708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9290C501E2269A000DBA708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D9290C511E2269A000DBA708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D9290C531E2269A000DBA708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D9290C541E2269A000DBA708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D9290C571E2269A000DBA708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9290C591E2269A000DBA708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9290C5C1E2269A000DBA708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9290C5E1E2269A000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9290C631E2269A000DBA708 /* HXBaseProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXBaseProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9290C671E2269A000DBA708 /* HXBaseProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBaseProjTests.m; sourceTree = "<group>"; };
 		D9290C691E2269A000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9290C6E1E2269A000DBA708 /* HXBaseProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXBaseProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9290C721E2269A000DBA708 /* HXBaseProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBaseProjUITests.m; sourceTree = "<group>"; };
 		D9290C741E2269A000DBA708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9290C8A1E227AB500DBA708 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9290C8B1E227AB500DBA708 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9290C8D1E227AB500DBA708 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9290C921E227ABD00DBA708 /* HXBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBaseController.h; sourceTree = "<group>"; };
+		D9290C931E227ABD00DBA708 /* HXBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBaseController.m; sourceTree = "<group>"; };
+		D9290C941E227ABD00DBA708 /* HXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBaseModel.h; sourceTree = "<group>"; };
+		D9290C951E227ABD00DBA708 /* HXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBaseModel.m; sourceTree = "<group>"; };
+		D9290C961E227ABD00DBA708 /* HXBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBaseView.h; sourceTree = "<group>"; };
+		D9290C971E227ABD00DBA708 /* HXBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBaseView.m; sourceTree = "<group>"; };
+		D9290C9B1E227AE900DBA708 /* HXMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXMainController.h; sourceTree = "<group>"; };
+		D9290C9C1E227AE900DBA708 /* HXMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXMainController.m; sourceTree = "<group>"; };
+		D9290C9E1E227DBC00DBA708 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9290CA41E22819B00DBA708 /* NSObject+HX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HX.h"; sourceTree = "<group>"; };
+		D9290CA51E22819B00DBA708 /* NSObject+HX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HX.m"; sourceTree = "<group>"; };
+		D9D88FB91E2B7A13006873DA /* HXTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTabController.h; sourceTree = "<group>"; };
+		D9D88FBA1E2B7A13006873DA /* HXTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTabController.m; sourceTree = "<group>"; };
+		D9D88FC01E2B7B85006873DA /* HXHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHomeController.h; sourceTree = "<group>"; };
+		D9D88FC11E2B7B85006873DA /* HXHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHomeController.m; sourceTree = "<group>"; };
+		D9D88FC91E2B7BAD006873DA /* HXMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXMeController.h; sourceTree = "<group>"; };
+		D9D88FCA1E2B7BAD006873DA /* HXMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXMeController.m; sourceTree = "<group>"; };
+		D9D88FCD1E2B7BE5006873DA /* HXLikeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLikeController.h; sourceTree = "<group>"; };
+		D9D88FCE1E2B7BE5006873DA /* HXLikeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLikeController.m; sourceTree = "<group>"; };
+		D9D88FD11E2B7BF2006873DA /* HXFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFindController.h; sourceTree = "<group>"; };
+		D9D88FD21E2B7BF2006873DA /* HXFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFindController.m; sourceTree = "<group>"; };
+		D9D88FD41E2B7C1E006873DA /* HXNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXNaviController.h; sourceTree = "<group>"; };
+		D9D88FD51E2B7C1E006873DA /* HXNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXNaviController.m; sourceTree = "<group>"; };
+		D9D88FD81E2B7D58006873DA /* LCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBar.h; sourceTree = "<group>"; };
+		D9D88FD91E2B7D58006873DA /* LCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBar.m; sourceTree = "<group>"; };
+		D9D88FDA1E2B7D58006873DA /* LCTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBarBadge.h; sourceTree = "<group>"; };
+		D9D88FDB1E2B7D58006873DA /* LCTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBarBadge.m; sourceTree = "<group>"; };
+		D9D88FDC1E2B7D58006873DA /* LCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBarController.h; sourceTree = "<group>"; };
+		D9D88FDD1E2B7D58006873DA /* LCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBarController.m; sourceTree = "<group>"; };
+		D9D88FDE1E2B7D58006873DA /* LCTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBarItem.h; sourceTree = "<group>"; };
+		D9D88FDF1E2B7D58006873DA /* LCTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBarItem.m; sourceTree = "<group>"; };
+		D9D88FE41E2B7DFD006873DA /* HXBaseProj.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseProj.pch; sourceTree = "<group>"; };
+		D9D88FE51E2B80C5006873DA /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D9D88FE61E2B816A006873DA /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24896C5B1BB6163B5499538 /* libPods-HXBaseProj.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BACC37D5BA26E7BC46D48CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0B9848027C05B04EF82456 /* Pods-HXBaseProj.debug.xcconfig */,
+				4438024A18425EC09CF7B714 /* Pods-HXBaseProj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91D168EDA2C89A76BA5B2549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DC5816BC79C3101D5797EF /* libPods-HXBaseProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9290C411E2269A000DBA708 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +149,8 @@
 				D9290C661E2269A000DBA708 /* HXBaseProjTests */,
 				D9290C711E2269A000DBA708 /* HXBaseProjUITests */,
 				D9290C4B1E2269A000DBA708 /* Products */,
+				1BACC37D5BA26E7BC46D48CB /* Pods */,
+				91D168EDA2C89A76BA5B2549 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +167,14 @@
 		D9290C4C1E2269A000DBA708 /* HXBaseProj */ = {
 			isa = PBXGroup;
 			children = (
-				D9290C501E2269A000DBA708 /* AppDelegate.h */,
-				D9290C511E2269A000DBA708 /* AppDelegate.m */,
-				D9290C531E2269A000DBA708 /* ViewController.h */,
-				D9290C541E2269A000DBA708 /* ViewController.m */,
-				D9290C561E2269A000DBA708 /* Main.storyboard */,
+				D9D88FB51E2B6F2B006873DA /* Classes */,
+				D9D88FB61E2B6F2B006873DA /* SDK */,
+				D9D88FB71E2B6F2B006873DA /* Tools */,
+				D9D88FB81E2B6F2B006873DA /* Vendors */,
+				D9290CA01E22816B00DBA708 /* Catogory */,
+				D9290C911E227ABD00DBA708 /* Base */,
+				D9290C891E227AB500DBA708 /* AppEntry */,
 				D9290C591E2269A000DBA708 /* Assets.xcassets */,
-				D9290C5B1E2269A000DBA708 /* LaunchScreen.storyboard */,
-				D9290C5E1E2269A000DBA708 /* Info.plist */,
 				D9290C4D1E2269A000DBA708 /* Supporting Files */,
 			);
 			path = HXBaseProj;
@@ -117,7 +183,8 @@
 		D9290C4D1E2269A000DBA708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9290C4E1E2269A000DBA708 /* main.m */,
+				D9290C9E1E227DBC00DBA708 /* Info.plist */,
+				D9D88FE41E2B7DFD006873DA /* HXBaseProj.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +207,130 @@
 			path = HXBaseProjUITests;
 			sourceTree = "<group>";
 		};
+		D9290C891E227AB500DBA708 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				D9290C8A1E227AB500DBA708 /* AppDelegate.h */,
+				D9290C8B1E227AB500DBA708 /* AppDelegate.m */,
+				D9290C8D1E227AB500DBA708 /* main.m */,
+				D9290C9B1E227AE900DBA708 /* HXMainController.h */,
+				D9290C9C1E227AE900DBA708 /* HXMainController.m */,
+				D9D88FB91E2B7A13006873DA /* HXTabController.h */,
+				D9D88FBA1E2B7A13006873DA /* HXTabController.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		D9290C911E227ABD00DBA708 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D9290C921E227ABD00DBA708 /* HXBaseController.h */,
+				D9290C931E227ABD00DBA708 /* HXBaseController.m */,
+				D9290C941E227ABD00DBA708 /* HXBaseModel.h */,
+				D9290C951E227ABD00DBA708 /* HXBaseModel.m */,
+				D9290C961E227ABD00DBA708 /* HXBaseView.h */,
+				D9290C971E227ABD00DBA708 /* HXBaseView.m */,
+				D9D88FD41E2B7C1E006873DA /* HXNaviController.h */,
+				D9D88FD51E2B7C1E006873DA /* HXNaviController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D9290CA01E22816B00DBA708 /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				D9290CA41E22819B00DBA708 /* NSObject+HX.h */,
+				D9290CA51E22819B00DBA708 /* NSObject+HX.m */,
+			);
+			path = Catogory;
+			sourceTree = "<group>";
+		};
+		D9D88FB51E2B6F2B006873DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FBD1E2B7B67006873DA /* Home */,
+				D9D88FD01E2B7BF2006873DA /* Find */,
+				D9D88FCC1E2B7BE5006873DA /* Like */,
+				D9D88FBF1E2B7B67006873DA /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D9D88FB61E2B6F2B006873DA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		D9D88FB71E2B6F2B006873DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FE51E2B80C5006873DA /* Common.h */,
+				D9D88FE61E2B816A006873DA /* Define.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D9D88FB81E2B6F2B006873DA /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FD71E2B7D58006873DA /* LCTabBarController */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		D9D88FBD1E2B7B67006873DA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FC01E2B7B85006873DA /* HXHomeController.h */,
+				D9D88FC11E2B7B85006873DA /* HXHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9D88FBF1E2B7B67006873DA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FC91E2B7BAD006873DA /* HXMeController.h */,
+				D9D88FCA1E2B7BAD006873DA /* HXMeController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		D9D88FCC1E2B7BE5006873DA /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FCD1E2B7BE5006873DA /* HXLikeController.h */,
+				D9D88FCE1E2B7BE5006873DA /* HXLikeController.m */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		D9D88FD01E2B7BF2006873DA /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FD11E2B7BF2006873DA /* HXFindController.h */,
+				D9D88FD21E2B7BF2006873DA /* HXFindController.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		D9D88FD71E2B7D58006873DA /* LCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D9D88FD81E2B7D58006873DA /* LCTabBar.h */,
+				D9D88FD91E2B7D58006873DA /* LCTabBar.m */,
+				D9D88FDA1E2B7D58006873DA /* LCTabBarBadge.h */,
+				D9D88FDB1E2B7D58006873DA /* LCTabBarBadge.m */,
+				D9D88FDC1E2B7D58006873DA /* LCTabBarController.h */,
+				D9D88FDD1E2B7D58006873DA /* LCTabBarController.m */,
+				D9D88FDE1E2B7D58006873DA /* LCTabBarItem.h */,
+				D9D88FDF1E2B7D58006873DA /* LCTabBarItem.m */,
+			);
+			path = LCTabBarController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +338,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9290C771E2269A000DBA708 /* Build configuration list for PBXNativeTarget "HXBaseProj" */;
 			buildPhases = (
+				3AD90B6E9EBEF804E95D83B5 /* [CP] Check Pods Manifest.lock */,
 				D9290C461E2269A000DBA708 /* Sources */,
 				D9290C471E2269A000DBA708 /* Frameworks */,
 				D9290C481E2269A000DBA708 /* Resources */,
+				135445751640FE910E520083 /* [CP] Embed Pods Frameworks */,
+				FF82F4AE472126B9B8A3A364 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +440,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9290C5D1E2269A000DBA708 /* LaunchScreen.storyboard in Resources */,
+				D9290C9F1E227DBC00DBA708 /* Info.plist in Resources */,
 				D9290C5A1E2269A000DBA708 /* Assets.xcassets in Resources */,
-				D9290C581E2269A000DBA708 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +461,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135445751640FE910E520083 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXBaseProj/Pods-HXBaseProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AD90B6E9EBEF804E95D83B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF82F4AE472126B9B8A3A364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXBaseProj/Pods-HXBaseProj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9290C461E2269A000DBA708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9290C551E2269A000DBA708 /* ViewController.m in Sources */,
-				D9290C521E2269A000DBA708 /* AppDelegate.m in Sources */,
-				D9290C4F1E2269A000DBA708 /* main.m in Sources */,
+				D9D88FE01E2B7D58006873DA /* LCTabBar.m in Sources */,
+				D9290C981E227ABD00DBA708 /* HXBaseController.m in Sources */,
+				D9D88FCF1E2B7BE5006873DA /* HXLikeController.m in Sources */,
+				D9D88FE11E2B7D58006873DA /* LCTabBarBadge.m in Sources */,
+				D9D88FD61E2B7C1E006873DA /* HXNaviController.m in Sources */,
+				D9D88FC21E2B7B85006873DA /* HXHomeController.m in Sources */,
+				D9290C9D1E227AE900DBA708 /* HXMainController.m in Sources */,
+				D9290C8E1E227AB500DBA708 /* AppDelegate.m in Sources */,
+				D9290C901E227AB500DBA708 /* main.m in Sources */,
+				D9D88FCB1E2B7BAD006873DA /* HXMeController.m in Sources */,
+				D9290C991E227ABD00DBA708 /* HXBaseModel.m in Sources */,
+				D9290CA61E22819B00DBA708 /* NSObject+HX.m in Sources */,
+				D9290C9A1E227ABD00DBA708 /* HXBaseView.m in Sources */,
+				D9D88FD31E2B7BF2006873DA /* HXFindController.m in Sources */,
+				D9D88FE21E2B7D58006873DA /* LCTabBarController.m in Sources */,
+				D9D88FBB1E2B7A13006873DA /* HXTabController.m in Sources */,
+				D9D88FE31E2B7D58006873DA /* LCTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +564,6 @@
 			targetProxy = D9290C6F1E2269A000DBA708 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D9290C561E2269A000DBA708 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9290C571E2269A000DBA708 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D9290C5B1E2269A000DBA708 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9290C5C1E2269A000DBA708 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D9290C751E2269A000DBA708 /* Debug */ = {
@@ -422,9 +658,14 @@
 		};
 		D9290C781E2269A000DBA708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0B9848027C05B04EF82456 /* Pods-HXBaseProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HXBaseProj/HXBaseProj.pch;
 				INFOPLIST_FILE = HXBaseProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aizen.HXBaseProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +674,14 @@
 		};
 		D9290C791E2269A000DBA708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4438024A18425EC09CF7B714 /* Pods-HXBaseProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HXBaseProj/HXBaseProj.pch;
 				INFOPLIST_FILE = HXBaseProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aizen.HXBaseProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +753,7 @@
 				D9290C791E2269A000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9290C7A1E2269A000DBA708 /* Build configuration list for PBXNativeTarget "HXBaseProjTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +762,7 @@
 				D9290C7C1E2269A000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9290C7D1E2269A000DBA708 /* Build configuration list for PBXNativeTarget "HXBaseProjUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +771,7 @@
 				D9290C7F1E2269A000DBA708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
